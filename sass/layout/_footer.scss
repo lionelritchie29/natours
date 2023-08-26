@@ -19,6 +19,10 @@
   &__logo {
     width: 15%;
     height: auto;
+
+    @include respond(phone) {
+      width: 35%;
+    }
   }
 
   &__navigation {

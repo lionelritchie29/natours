@@ -704,6 +704,9 @@ body {
   .footer__logo {
     width: 15%;
     height: auto; }
+    @media (max-width: 37.5em) {
+      .footer__logo {
+        width: 35%; } }
   .footer__navigation {
     border-top: 1px solid #eee;
     padding-top: 2rem;
